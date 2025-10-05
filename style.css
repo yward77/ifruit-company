@@ -145,7 +145,7 @@ color: rgb(87, 84, 84)
   justify-items: center;
   align-items: center;
   column-gap: 3rem;
-  row-gap: 2rem;
+  row-gap: 1rem;
   width: 80%;
   margin: 0 auto;
 }
