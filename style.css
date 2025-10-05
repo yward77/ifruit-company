@@ -90,3 +90,79 @@
     width: 142%; /* يمنع القطع */
   }
 }
+.body3{
+  margin-top: 9rem;
+  
+}
+.body3 img{
+  width: 250px;
+  border-radius: 50px;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.hotdrink{
+height: 300px;
+}
+.img33{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+margin-top: 3rem;
+}
+.text{
+  gap: 13rem;
+color: rgb(87, 84, 84)
+}
+.prop{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 50%;
+}
+.text2{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 70%;
+  margin-top: 9rem;
+}
+
+  .text2 img{
+    width:250px ;
+    float: right;
+    position: relative;
+    left: 20rem;
+    top: -14rem;
+  }
+.body5 {
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.imgbody5 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  column-gap: 3rem;
+  row-gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imgbody5 img {
+  width: 110%;
+  max-width: 180px;
+}
+.logocam {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.logocam img {
+  width: 190px !important;
+  height: auto !important;
+  position: relative;
+  left: -130px;
+}
