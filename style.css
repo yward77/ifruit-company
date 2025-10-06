@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
          font-family: 'Arimo', sans-serif;
+         color: navy !important;
+
 }
 
 .body11 {
@@ -167,17 +169,23 @@ color: rgb(87, 84, 84)
   left: -130px;
 }
 .body6 {
-  width: 100%;
+  width: 110%;
   text-align: center;
   font-family: 'Arimo', sans-serif;
   background: linear-gradient(white, white) padding-box,
               linear-gradient(to right, rgb(136, 181, 248), #DA3989) border-box;
   border: 7px solid transparent;
   border-radius: 25px;
-  padding: 2rem;
+  padding: 2rem 4em !important;
   background-color: #fff;
   position: relative;
   margin-top: 9rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -55px;
+  
 }
 
 /* الصف اللي فيه اللوجو والعنوان */
@@ -229,11 +237,12 @@ color: rgb(87, 84, 84)
 }
 
 .branch img {
-  width: 300px;
-  height: 250px;
+  width: 360px;
+  height: 310px;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.3s ease;
+  margin-top: 2rem;
 }
 
 .branch img:hover {
@@ -246,7 +255,7 @@ color: rgb(87, 84, 84)
 margin-top: 2rem;
   margin-left: 2rem;
   position: relative;
-  left: -170px;
+  left: -200px;
 }
 .ddd{
   width: 130px !important;
