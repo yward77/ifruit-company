@@ -166,3 +166,95 @@ color: rgb(87, 84, 84)
   position: relative;
   left: -130px;
 }
+.body6 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, rgb(136, 181, 248), #DA3989) border-box;
+  border: 7px solid transparent;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: #fff;
+  position: relative;
+  margin-top: 9rem;
+}
+
+/* الصف اللي فيه اللوجو والعنوان */
+.top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem; /* المسافة بينهم */
+  margin-bottom: 1rem;
+}
+
+/* اللوجو */
+.p37 img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.opo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+.opo h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #5e5b5b;
+  margin: 0;
+  margin-right: -4px; /* إزالة أي فراغ بين النص والصورة */
+}
+
+.opo img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+
+/* فروع */
+.branches {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.branch img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.branch img:hover {
+  transform: scale(1.05);
+}
+.mr{
+  margin-top: 2rem;
+}
+.mro{
+margin-top: 2rem;
+  margin-left: 2rem;
+  position: relative;
+  left: -170px;
+}
+.ddd{
+  width: 130px !important;
+  height: 100px !important;
+  margin-left: 2rem !important;
+}
+.ooo{
+  width: 130px !important;
+  height: 130px !important;
+  margin-left: 2rem !important;
+}
