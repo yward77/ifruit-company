@@ -363,3 +363,112 @@ margin-top: 2rem;
   position: relative;
   left: -290px;
 }
+/* container */
+.body8 {
+    width: 100%;
+    height: 100vh;
+    padding: 3rem 2rem;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* توسيط عمودي */
+    gap: 1.5rem;
+
+}
+
+/* logo + title */
+.body8 .logo23 {
+    width: 120px;
+    max-width: 30%;
+    height: auto;
+}
+.body8 .h33 {
+    font-size: 2rem;
+  
+    text-transform: capitalize;
+}
+
+/* contact items */
+.body8 > .facebook,
+.body8 > .gmail,
+.body8 > .call,
+.body8 > .youtube,
+.body8 > .tiktok {
+    width: 100%;
+    max-width: 900px;
+}
+
+/* common style */
+.body8 .facebook,
+.body8 .gmail,
+.body8 .call,
+.body8 .youtube,
+.body8 .tiktok {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+
+/* hover */
+.body8 .facebook:hover,
+.body8 .gmail:hover,
+.body8 .call:hover,
+.body8 .youtube:hover,
+.body8 .tiktok:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.09);
+}
+
+/* icons */
+.body8 .facebook img,
+.body8 .gmail img,
+.body8 .call img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+}
+.body8 .youtube img,
+.body8 .tiktok img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* text */
+.body8 h2 {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+    font-weight: 600;
+    direction: ltr;
+}
+
+/* focus */
+.body8 .facebook:focus,
+.body8 .gmail:focus,
+.body8 .call:focus,
+.body8 .youtube:focus,
+.body8 .tiktok:focus {
+    outline: 3px solid rgba(218,57,137,0.18);
+    outline-offset: 3px;
+}
+.logo250{
+  width: 250px !important;
+  height: auto !important;
+  position: relative;
+  left: -250px;
+}
+.body9{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin-top: 9rem;
+}
