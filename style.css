@@ -267,3 +267,33 @@ margin-top: 2rem;
   height: 130px !important;
   margin-left: 2rem !important;
 }
+.body7{
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.body7 img{
+  width: 250px;
+ position: relative;
+ left: -490px;
+ border-radius: 25px;
+}
+.mktbp{
+ 
+  width: 70%;
+ position: relative;
+  top: -300px;
+  left: 150px;
+}
+.body7 h1{
+  font-size: 40px;
+  color: #5e5b5b;
+  margin-bottom: 3rem;
+}
+.bigo{
+  font-size: 25px;
+  color: #DA3989 !important;
+  font-weight: bold;
+}
