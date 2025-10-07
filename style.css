@@ -273,9 +273,10 @@ margin-top: 2rem;
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-left: 12rem;
 }
 .body7 img{
-  width: 350px;
+  width: 400px;
  position: relative;
  left: -490px;
  border-radius: 25px;
@@ -284,7 +285,7 @@ margin-top: 2rem;
  
   width: 70%;
  position: relative;
-  top: -350px;
+  top: -450px;
   left: 150px;
 }
 .body7 h1{
@@ -301,4 +302,63 @@ margin-top: 2rem;
   width: 200px !important;
   margin-bottom: 20px;
   margin-left: 13em;
+}
+.body4 {
+    width: 100%;
+  margin-top: 9rem;
+  
+    font-family: 'Arimo', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.body4 .logo23 {
+    width: 150px;
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+}
+
+.body4 h1.h33 {
+    font-size: 2.5rem;
+    font-weight: 700;
+ 
+    margin-bottom: 2rem;
+}
+
+.body4 p {
+  width: 50%;
+    text-align: justify;
+    position: relative;
+    top: 4rem;
+}
+.images img{
+  width: 250px;
+  border-radius: 50px;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+.images{
+  position: relative;
+  left: 300px;
+  top: -360px;
+}
+
+.imagese img{
+  width: 250px;
+  border-radius: 50px;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+.imagese{
+  position: relative;
+  left: 300px;
+  top: -430px;
+}
+.boba{
+  position: relative;
+  left: -280px;
+}
+.rel{
+  position: relative;
+  left: -290px;
 }
